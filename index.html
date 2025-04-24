@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http‑equiv="X‑UA‑Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device‑width, initial‑scale=1.0" />
+    <title>BAGAVATH | Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --accent: #6366f1;
+        --bg: #f9fafb;
+        --text: #1f2937;
+        --card-bg: #ffffff;
+      }
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      header {
+        background: var(--card-bg);
+        padding: 2rem 1.5rem;
+        box-shadow: 0 2px 8px rgb(0 0 0 / 0.04);
+      }
+      header h1 {
+        font-size: 2rem;
+        font-weight: 800;
+        color: var(--accent);
+      }
+      header nav {
+        margin-top: 1rem;
+      }
+      header nav a {
+        margin-right: 1rem;
+        text-decoration: none;
+        color: var(--text);
+        font-weight: 600;
+      }
+      header nav a:hover {
+        color: var(--accent);
+      }
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+      /* Hero */
+      .hero {
+        text-align: center;
+        padding: 4rem 1rem;
+      }
+      .hero h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+      .hero p {
+        font-size: 1.125rem;
+        max-width: 600px;
+        margin: 0 auto 2rem;
+      }
+      .btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: var(--accent);
+        color: #fff;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.2s ease;
+      }
+      .btn:hover {
+        background: #4f46e5;
+      }
+      /* Projects */
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.5rem;
+      }
+      .project {
+        background: var(--card-bg);
+        border-radius: 0.75rem;
+        box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
+        overflow: hidden;
+        transition: transform 0.2s ease;
+      }
+      .project:hover {
+        transform: translateY(-4px);
+      }
+      .project img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+      }
+      .project-content {
+        padding: 1rem;
+      }
+      .project-content h3 {
+        margin-bottom: 0.5rem;
+        font-size: 1.25rem;
+      }
+      .project-content p {
+        font-size: 0.9375rem;
+        margin-bottom: 0.75rem;
+      }
+      footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        font-size: 0.875rem;
+        color: #6b7280;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <h1>Your Name</h1>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="about">
+      <div class="container">
+        <h2>Hi, I'm BAGAVATH</h2>
+        <p>iam a digital marketting strategist and responsive web design certified
