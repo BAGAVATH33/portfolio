@@ -2,144 +2,68 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http‑equiv="X‑UA‑Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device‑width, initial‑scale=1.0" />
-    <title>BAGAVATH | Portfolio</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      :root {
-        --accent: #6366f1;
-        --bg: #f9fafb;
-        --text: #1f2937;
-        --card-bg: #ffffff;
-      }
-      * {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-      }
-      body {
-        font-family: "Inter", sans-serif;
-        background: var(--bg);
-        color: var(--text);
-        line-height: 1.6;
-      }
-      header {
-        background: var(--card-bg);
-        padding: 2rem 1.5rem;
-        box-shadow: 0 2px 8px rgb(0 0 0 / 0.04);
-      }
-      header h1 {
-        font-size: 2rem;
-        font-weight: 800;
-        color: var(--accent);
-      }
-      header nav {
-        margin-top: 1rem;
-      }
-      header nav a {
-        margin-right: 1rem;
-        text-decoration: none;
-        color: var(--text);
-        font-weight: 600;
-      }
-      header nav a:hover {
-        color: var(--accent);
-      }
-      .container {
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 2rem 1.5rem;
-      }
-      /* Hero */
-      .hero {
-        text-align: center;
-        padding: 4rem 1rem;
-      }
-      .hero h2 {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-      }
-      .hero p {
-        font-size: 1.125rem;
-        max-width: 600px;
-        margin: 0 auto 2rem;
-      }
-      .btn {
-        display: inline-block;
-        padding: 0.75rem 1.5rem;
-        background: var(--accent);
-        color: #fff;
-        border-radius: 0.5rem;
-        text-decoration: none;
-        font-weight: 600;
-        transition: background 0.2s ease;
-      }
-      .btn:hover {
-        background: #4f46e5;
-      }
-      /* Projects */
-      .projects {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: 1.5rem;
-      }
-      .project {
-        background: var(--card-bg);
-        border-radius: 0.75rem;
-        box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
-        overflow: hidden;
-        transition: transform 0.2s ease;
-      }
-      .project:hover {
-        transform: translateY(-4px);
-      }
-      .project img {
-        width: 100%;
-        height: 160px;
-        object-fit: cover;
-      }
-      .project-content {
-        padding: 1rem;
-      }
-      .project-content h3 {
-        margin-bottom: 0.5rem;
-        font-size: 1.25rem;
-      }
-      .project-content p {
-        font-size: 0.9375rem;
-        margin-bottom: 0.75rem;
-      }
-      footer {
-        text-align: center;
-        padding: 2rem 1rem;
-        font-size: 0.875rem;
-        color: #6b7280;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bagavath | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <class="bg-white shadow-md p-6 text-center">
+    <!-- Replace the src with your profile image URL or file path -->
+    <img src="https://assets.onecompiler.app/43frtuzxa/43fxefu5b/profile.png.jpg" alt="My Profile Picture" class="w-32 h-32 mx-auto rounded-full shadow-md object-cover">
   </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <div class="container">
-        <h1>Your Name</h1>
-        <nav>
-          <a href="#about">About</a>
-          <p></p>iam bagavath,originally from ramanathapuram,iam currently studying BTECH[CSBS]in mohamed sathak engineering college'kilakarai</P>
-          <a href="#projects">Projects</a>
-          <p></p>iam complete some projects{responsive web desing}</p>
-          <a href="#contact">Contact</a>
-          <p></p>GMAIL:bagavath33@gmail.com
-                      93421256277
-        </nav>
+  <body class="bg-gray-900 text-white font-sans leading-relaxed">
+    <!-- Hero Section -->
+    <section class="text-center py-16 px-4">
+      <h1 class="text-4xl md:text-5xl font-bold">Hi, I'm BAGAVATH👋</h1>
+      <p class="text-gray-400 mt-2 text-lg">web Designer & Aspiring digital marketing</p>
+      <div class="mt-4 flex justify-center gap-6 text-2xl">
+        <a href="https://github.com/" class="hover:text-gray-300" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/" class="hover:text-gray-300" target="_blank"><i class="fab fa-linkedin"></i></a>
       </div>
-    </header>
+    </section>
 
-    <!-- Hero -->
-    <section class="hero" id="about">
-      <div class="container">
-        <h2>Hi, I'm BAGAVATH</h2>
-        <p>iam a digital marketting strategist and responsive web design certified
+    <!-- About Section -->
+    <section class="max-w-3xl mx-auto px-4 py-10">
+      <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+      <p class="text-gray-300">
+        I'm BAGAVATH, I'm excited to grow my skills and help buisness build a strong online presence.
+        And iam just getting started in web design , I enjoy creating simple, user freindly websites and learning how to help them reach more people online through SEO.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="bg-gray-800 py-12 px-4">
+      <h2 class="text-3xl font-semibold text-center mb-10">Projects</h2>
+      <div class="grid gap-6 md:grid-cols-3 max-w-6xl mx-auto">
+        <div class="bg-gray-700 p-6 rounded-2xl shadow hover:shadow-lg">
+          <h3 class="text-xl font-bold mb-2">Weather App</h3>
+          <p class="text-gray-300 text-sm mb-2">A simple weather app using OpenWeatherMap API.</p>
+          <a href="#" class="text-blue-400 text-sm">View Project →</a>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-2xl shadow hover:shadow-lg">
+          <h3 class="text-xl font-bold mb-2">Marketing a Brand</h3>
+          <p class="text-gray-300 text-sm mb-2">A online shopping brand .</p>
+          <a href="#" class="text-blue-400 text-sm">View Project →</a>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-2xl shadow hover:shadow-lg">
+          <h3 class="text-xl font-bold mb-2">Portfolio Site</h3>
+          <p class="text-gray-300 text-sm mb-2">This personal portfolio built with Tailwind.</p>
+          <a href="#" class="text-blue-400 text-sm">View Project →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="text-center py-12 px-4">
+      <h2 class="text-3xl font-semibold mb-4">Contact</h2>
+      <p class="text-gray-400 mb-6">Have a question or want to work together?</p>
+      <a href="mailto:riderspsycho010@gmail.com" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-full font-medium">
+        Email Me
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-500 text-sm py-6">
+      © 2025 BAGAVATH. All rights reserved.
+    </footer>
+  </body>
+</html>
